@@ -1,7 +1,11 @@
-# Todo app
-
-![Design Preview](./design/desktop-preview.jpg)
-
+# Todo app 🏗️
+Website that provides a todo-list's functionality in an easier way :)
+## Features
+* Theme Toggle
+* Responsivity
+* Add/Remove items
+* Search items
+* ...
 ## Buinding With
 
 * HTML5
