@@ -15,94 +15,25 @@
   <title>ToDo App :)</title>
 
 </head>
-<body class="dark">
+<body>
 
   <div id="main-box">
     
     <header>
       <div id="title">TODO</div>
-      <div id="theme-button" class="dark"></div>
+      <div id="theme-button"></div>
     </header>
 
-    <div id="add-box" class="dark">                                    <!-----    Add-Box Start  ----->
+    <div id="add-box">                                    <!-----    Add-Box Start  ----->
         <div class="create-button"><img src="images/ok.png" width="25px" height="25px"></div>
+        
         <div class="todo-content"> 
-          <input type="text" name="new-task" placeholder="Write a new task here...">
+          <input autofocus='true' type="text" name="new-task" placeholder="Write a new task here...">
         </div>
     </div>
 
-    <div id="list-box" class="dark">                     <!-----    List-Box Start    ----->
-      <ul id="todo-list" class="dark">        
-        <li class="complete" draggable="true">       
-          <div class="check-button">
-            <div class="check-function dark"></div>
-          </div>
-          <div class="todo-content">
-            Complete my JavaScript Project
-          </div>
-          <div class="remove-button"></div>
-        </li>                   
-
-        <li class="complete" draggable="true">      
-          <div class="check-button">
-            <div class="check-function dark"></div>
-          </div>
-          <div class="todo-content">
-            Walk my lil' dog
-          </div>
-          <div class="remove-button"></div>
-        </li>                   
-        
-        <li draggable="true">      
-          <div class="check-button">
-            <div class="check-function dark"></div>
-          </div>
-          <div class="todo-content">
-            Learn new things !
-          </div>
-          <div class="remove-button"></div>
-        </li>                   
-        
-        <li draggable="true">      
-          <div class="check-button">
-            <div class="check-function dark"></div>
-          </div>
-          <div class="todo-content">
-            Make money to help my family
-          </div>
-          <div class="remove-button"></div>
-        </li>  
-
-        <li draggable="true">      
-          <div class="check-button">
-            <div class="check-function dark"></div>
-          </div>
-          <div class="todo-content">
-            Get hired, or get some freelas :)
-          </div>
-          <div class="remove-button"></div>
-        </li>
-
-        <li draggable="true">      
-          <div class="check-button">
-            <div class="check-function dark"></div>
-          </div>
-          <div class="todo-content">
-            Develop a website for my uncle's business
-          </div>
-          <div class="remove-button"></div>
-        </li>  
-
-        <li draggable="true">      
-          <div class="check-button">
-            <div class="check-function dark"></div>
-          </div>
-          <div class="todo-content">
-            Wash the dishes 3x a day :(
-          </div>
-          <div class="remove-button"></div>
-        </li>
-      </ul>
+    <div id="list-box">                     <!-----    List-Box Start    ----->
+      <ul id="todo-list" ></ul>
       
       <div id="exibition-bar">                              <!-----    Exibition-Bar Start    ----->
         <div id="counter"></div>
@@ -111,7 +42,7 @@
     
     </div>    <!-- List-Box End -->
 
-    <div id="display-bar" class="dark">
+    <div id="display-bar" >
       <div id="disp-all" class="display">All</div>
       <div id="disp-active">Active</div>
       <div id="disp-complete">Complete</div>
@@ -126,6 +57,6 @@
   </div>      <!-- Main-box / Container End -->
 
 
-  <script type="text/javascript" src="js/script.js"></script>
+  <script type="module" src="js/script.js"></script>
 </body>
 </html>

@@ -121,10 +121,10 @@ header{
     margin-top: -10px;
     margin-right: 10px;
 }
-#theme-button.light{
+.light #theme-button{
     background: center no-repeat url(../images/icon-moon.svg);
 }
-#theme-button.dark{
+.dark #theme-button{
     background: center no-repeat url(../images/icon-sun.svg);
 }
 
@@ -137,10 +137,10 @@ header{
     border-radius: 8px;
     box-shadow: 0px 10px 25px -15px #000;
 }
-#add-box.light{
+.light #add-box{
     background-color: var(--main-bg-light);
 }
-#add-box.dark{
+.dark #add-box{
     background-color: var(--main-bg-dark);
 }
 input[type='text']{
@@ -150,10 +150,10 @@ input[type='text']{
     font-family: 'Josefin Sans';
     font-size: 1rem;
 }
-#add-box.dark input[type='text']{
+.dark #add-box input[type='text']{
     color: var(--dark-color);
 }
-    input[type='text']:focus{
+input[type='text']:focus{
     outline: none;
 }
 .create-button{
@@ -176,10 +176,10 @@ input[type='text']{
     box-shadow: 0px 10px 25px -15px #000;
     border-radius: 8px;
 }
-#list-box.light{
+.light #list-box{
     background-color: var(--main-bg-light);
 }
-#list-box.dark{
+.dark #list-box{
     background-color: var(--main-bg-dark);
 }
 ul{
@@ -190,10 +190,10 @@ li{
     display: flex;
     align-items: center;
 }
-#list-box.light li{
+.light #list-box li{
     border-bottom: 1px solid #E4E5F1;
 }
-#list-box.dark li{
+.dark #list-box li{
     border-bottom: 1px solid #585B74;
 }
 .check-button{
@@ -215,10 +215,10 @@ li{
     border-radius: 50%;
     cursor: pointer;
 }
-#list-box.light .check-function{
+.light #list-box .check-function{
     background-color: var(--main-bg-light);
 }
-#list-box.dark .check-function{
+.dark #list-box .check-function{
     background-color: var(--main-bg-dark);
 }
 li.complete .check-function{
@@ -234,6 +234,10 @@ li.complete .todo-content{
 .todo-content{
     max-width: 65%;
     text-overflow: ellipsis;
+}
+li .note-content{
+    max-width: 65%;
+    margin: 0px auto;
 }
 
 .remove-button{
@@ -268,10 +272,10 @@ li.complete .todo-content{
     justify-content: space-around;
     box-shadow: 0px 10px 25px -15px #000;
 }
-#display-bar.light{
+.light #display-bar{
     background-color: var(--main-bg-light);
 }
-#display-bar.dark{
+.dark #display-bar{
     background-color: var(--main-bg-dark);
     color: #9394A5;
 }

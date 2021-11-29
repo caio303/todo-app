@@ -14,12 +14,13 @@ Obs.: The Preview prints've got their colors a little bit changed, and the qualt
 
 ## Features
 * Theme Toggle ( Dark/Light )
+* Theme is saved in your LocalStorage
 * Responsivity ( Media Queries )
 * Add/Remove items (By pressing Enter or clicking)
 * Items Left Counter
 * Clear Complete Items
 * Nice Hover Features ( Take a look :slightly_smiling_face: )
-* Filter by:  All | Active | Complete  (In progress)
+* Filter by:  All | Active | Complete
 ## Buit With
 
 * HTML5
