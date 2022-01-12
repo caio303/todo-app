@@ -6,6 +6,11 @@ import displayAll from './modules/exibBar/displayAll.js'
 import displayActive from './modules/exibBar/displayActive.js'
 import displayComplete from './modules/exibBar/displayComplete.js'
 
+console.log("Welcome to my project! I'm Caio.\n  \
+My Contact -->\n  \
+Phone Number: +5583987914312\n  \
+LinkedIn: https://www.linkedin.com/in/caio303/")
+
 // The Absolute Tasks List ( Items List )
 export let iList = [
     {
@@ -37,9 +42,6 @@ export let iList = [
         isChecked:'false'
     }
 ]
-
-
-console.log("Your JavaScript is linked, and ready to use")
 
 // Check the LocalStorage for the chosen theme, and apply it
 if(localStorage.getItem('theme') == null){
