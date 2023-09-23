@@ -24,9 +24,9 @@ body,html{
     --light-color: ;
     
 }
-body{
+body {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-size: contain;
     background-repeat: no-repeat;
     transition:all 0.08s;
